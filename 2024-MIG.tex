@@ -1,0 +1,93 @@
+\input{include}
+\usepackage{multirow}
+\AtBeginBibliography{\tiny}
+
+\title{music informatics group}
+\subtitle{overview} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    % generate title page
+	\input{include/titlepage}
+
+    \section[about]{about music informatics group}
+        \input{about}
+        
+    \section[areas]{areas}
+        \begin{frame}{tasks}{selected tasks of interest}
+            \vspace{-3mm}
+            \begin{itemize}
+                \item   \textbf{audio content analysis}
+                    \begin{itemize}
+                        \item   music/audio classification
+                            \begin{itemize}
+                                \item genre/events \cite{burred_hierarchical_2004, hung_low-resource_2023}
+                                \item instruments \cite{gururani_semi-supervised_2021, chen_music_2023, ding_audio_2023}
+                                \item tagging \cite{ding_audio_2023, ding_embedding_2024}
+                                \item pedestrians \cite{seshadri_asped_2024}
+                            \end{itemize}
+                        \item   music transcription
+                            \begin{itemize}
+                                \item drum transcription \cite{wu_review_2018}
+                                \item chord detection \cite{zhou_chord_2015}
+                            \end{itemize}
+                        \item   music performance analysis
+                            \begin{itemize}
+                                \item student assessment \cite{pati_assessment_2018}
+                            \end{itemize}
+                    \end{itemize}
+                 \smallskip
+                 \item<2->  \textbf{audio processing}
+                    \begin{itemize}
+                        \item   source separation \cite{hung_multi-task_2020, watcharasupat_generalized_2024}
+                    \end{itemize}
+                 \smallskip
+                 \item<3->  \textbf{sound and music generation}
+                    \begin{itemize}
+                        \item   controllable systems \cite{pati_attribute-based_2020}
+                        \item   evaluation \cite{pati_is_2021, watcharasupat_latte_2022}
+                    \end{itemize}
+            \end{itemize}
+        \end{frame}
+        
+     \section[methods]{methods}
+        \begin{frame}{methods}{methods of interest}
+            \begin{itemize}
+                \item   \textbf{representation learning}
+                    \begin{itemize}
+                        \item   improved structure of embedded representations \cite{seshadri_improving_2021, ma_representation_2022}
+                        \item   enforcing the meaning of specific embedding dimensions \cite{pati_attribute-based_2020, pati_is_2021}
+                        \item   \ldots
+                    \end{itemize}
+                 \bigskip
+                 \item<2->  \textbf{low-resource machine learning}
+                    \begin{itemize}
+                        \item   semi- and self-supervised learning \cite{gururani_semi-supervised_2021, wu_labeled_2018}
+                        \item   reprogramming \cite{chen_music_2023, hung_low-resource_2023}
+                        \item   knowledge transfer \cite{hung_feature-informed_2022, ding_audio_2023, ding_embedding_2024}
+                    \end{itemize}
+                 \bigskip
+                 \item<3->  \textbf{objective system evaluation}
+                    \begin{itemize}
+                        \item   evaluation of controllable systems with correlated attributes \cite{watcharasupat_evaluation_2021, watcharasupat_latte_2022}
+                        \item   statistical models for comparison of properties \cite{yang_evaluation_2020}
+                        \item   metrics for sound generation \cite{vinay_evaluating_2022}
+                    \end{itemize}
+            \end{itemize}
+            \end{frame}
+        
+     %\section[mig]{music informatics group}
+        %\begin{frame}{music informatics group}{lab community}
+            %\begin{figure}%
+            %\includegraphics[width=.7\columnwidth]{MIG}%
+            %\end{figure}
+        %\end{frame}
+        
+    \input{./include/contact}
+    
+    \begin{frame}[allowframebreaks]{references}{references}
+    \tiny
+        \printbibliography
+    \end{frame}
+\end{document}
+
