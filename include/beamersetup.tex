@@ -52,7 +52,10 @@
             \href{http://www.gtcmt.gatech.edu}{\includegraphics[height=.8cm,keepaspectratio]{graph/Logo_GTCMT_black}}\hspace*{2ex}
         \end{flushright}
     \end{beamercolorbox}%
-		\addreference{\hspace{32mm}\href{https://\repolink}{\repolink}}
+    \nointerlineskip%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=.2\paperheight,dp=0.6ex]{page number in head/foot}
+    \end{beamercolorbox}%
+	\addreference{\hspace{48mm}\href{https://\repolink}{\repolink}}
 }
 
 
@@ -63,7 +66,7 @@
   \leavevmode%
   \hbox{%
   \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,left,leftskip=1ex]{page number in head/foot}%
-    \insertsubtitle
+    \inserttitle
   \end{beamercolorbox}%
   \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right,rightskip=1ex]{page number in head/foot}%
     \hfill
